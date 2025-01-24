@@ -1,36 +1,28 @@
 {
-  "$schema": "node_modules/nx/schemas/project-schema.json",
   "name": "jv-chess",
+  "$schema": "node_modules/nx/schemas/project-schema.json",
+  "includeScripts": [],
   "projectType": "application",
-  "generators": {
-    "@schematics/angular:component": {
-      "style": "scss"
-    }
-  },
-  "sourceRoot": "src",
   "prefix": "jv",
+  "sourceRoot": "./src",
+  "tags": [],
   "targets": {
     "build": {
-      "executor": "@angular-devkit/build-angular:browser",
+      "executor": "@angular-devkit/build-angular:application",
       "options": {
         "outputPath": "dist/jv-chess",
-        "index": "src/index.html",
-        "main": "src/main.ts",
-        "polyfills": "src/polyfills.ts",
+        "index": "./src/index.html",
+        "browser": "./src/main.ts",
+        "polyfills": ["zone.js"],
         "tsConfig": "tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
-          "src/favicon.ico",
-          "src/assets"
+          {
+            "glob": "**/*",
+            "input": "public"
+          }
         ],
-        "styles": [
-          "src/styles.scss"
-        ],
-        "stylePreprocessorOptions": {
-          "includePaths": [
-            "src/assets/styles"
-          ]
-        },
+        "styles": ["./src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -43,31 +35,19 @@
             },
             {
               "type": "anyComponentStyle",
-              "maximumWarning": "2kb",
-              "maximumError": "4kb"
-            }
-          ],
-          "fileReplacements": [
-            {
-              "replace": "src/environments/environment.ts",
-              "with": "src/environments/environment.prod.ts"
+              "maximumWarning": "4kb",
+              "maximumError": "8kb"
             }
           ],
           "outputHashing": "all"
         },
         "development": {
-          "buildOptimizer": false,
           "optimization": false,
-          "vendorChunk": true,
           "extractLicenses": false,
-          "sourceMap": true,
-          "namedChunks": true
+          "sourceMap": true
         }
       },
-      "defaultConfiguration": "production",
-      "outputs": [
-        "{options.outputPath}"
-      ]
+      "defaultConfiguration": "production"
     },
     "serve": {
       "executor": "@angular-devkit/build-angular:dev-server",
@@ -87,35 +67,26 @@
         "browserTarget": "jv-chess:build"
       }
     },
-    "test": {
-      "executor": "@angular-devkit/build-angular:karma",
+    "lint": {
+      "executor": "@nx/eslint:lint",
       "options": {
-        "main": "src/test.ts",
-        "polyfills": "src/polyfills.ts",
-        "tsConfig": "tsconfig.spec.json",
-        "karmaConfig": "karma.conf.js",
-        "inlineStyleLanguage": "scss",
-        "assets": [
-          "src/favicon.ico",
-          "src/assets"
-        ],
-        "styles": [
-          "src/styles.scss"
-        ],
-        "scripts": []
+        "lintFilePatterns": ["./src"]
       }
     },
-    "lint": {
-      "executor": "@angular-eslint/builder:lint",
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectName}"],
       "options": {
-        "lintFilePatterns": [
-          "src/**/*.ts",
-          "src/**/*.html"
-        ]
-      },
-      "outputs": [
-        "{options.outputFile}"
-      ]
+        "jestConfig": "jest.config.ts"
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "jv-chess:build",
+        "staticFilePath": "dist/jv-chess/browser",
+        "spa": true
+      }
     }
   }
 }

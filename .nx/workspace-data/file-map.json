@@ -1,0 +1,338 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.3.3",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "jv-chess": [
+        {
+          "file": ".editorconfig",
+          "hash": "7787947889455935603"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "13044518069027839699"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "5407418692668764289"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "16267754514737964994"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "4637156562308165301"
+        },
+        {
+          "file": "LICENSE",
+          "hash": "17538238764457046560"
+        },
+        {
+          "file": "README.md",
+          "hash": "7052342995363794171"
+        },
+        {
+          "file": "eslint.config.cjs",
+          "hash": "13011720209232060113"
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "11385176344344051907"
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "9430166341120122740",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "nx.json",
+          "hash": "10949196726620285818"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "8790543363597631712"
+        },
+        {
+          "file": "package.json",
+          "hash": "2200597980589416290",
+          "deps": [
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular-devkit/core",
+            "npm:@angular-devkit/schematics",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@nx/angular",
+            "npm:@nx/eslint",
+            "npm:@nx/jest",
+            "npm:@nx/js",
+            "npm:@nx/web",
+            "npm:@nx/workspace",
+            "npm:@schematics/angular",
+            "npm:@types/node",
+            "npm:@typescript-eslint/utils",
+            "npm:eslint",
+            "npm:nx",
+            "npm:ts-node",
+            "npm:tslib",
+            "npm:typescript",
+            "npm:@angular/animations",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:rxjs@7.8.1",
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "project.json",
+          "hash": "7662424420687592748"
+        },
+        {
+          "file": "src/app/app.component.html",
+          "hash": "8905147830809145869"
+        },
+        {
+          "file": "src/app/app.component.scss",
+          "hash": "11047348618857277869"
+        },
+        {
+          "file": "src/app/app.component.ts",
+          "hash": "11599331168114978375",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/app.module.ts",
+          "hash": "4146003656417942535",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser",
+            "npm:@angular/cdk"
+          ]
+        },
+        {
+          "file": "src/app/components/board/board.component.html",
+          "hash": "11381484936798405084"
+        },
+        {
+          "file": "src/app/components/board/board.component.scss",
+          "hash": "15835750605567590156"
+        },
+        {
+          "file": "src/app/components/board/board.component.ts",
+          "hash": "12682937654077333939",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/components/promote-dialog/promote-dialog.component.html",
+          "hash": "16614984466711264951"
+        },
+        {
+          "file": "src/app/components/promote-dialog/promote-dialog.component.scss",
+          "hash": "3113925255837145921"
+        },
+        {
+          "file": "src/app/components/promote-dialog/promote-dialog.component.ts",
+          "hash": "11679624455225037767",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/cdk"
+          ]
+        },
+        {
+          "file": "src/app/components/square/square.component.html",
+          "hash": "1307438961413818374"
+        },
+        {
+          "file": "src/app/components/square/square.component.scss",
+          "hash": "17404985128404031482"
+        },
+        {
+          "file": "src/app/components/square/square.component.ts",
+          "hash": "3531993992456395654",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs@7.8.1"
+          ]
+        },
+        {
+          "file": "src/app/models/colors.enum.ts",
+          "hash": "1608097204545954832"
+        },
+        {
+          "file": "src/app/models/game-state.model.ts",
+          "hash": "12696527328310951621"
+        },
+        {
+          "file": "src/app/models/move.model.ts",
+          "hash": "13122430303674438609"
+        },
+        {
+          "file": "src/app/models/pieces.enum.ts",
+          "hash": "3974915001218577641"
+        },
+        {
+          "file": "src/app/pipes/square-color.pipe.ts",
+          "hash": "16239508774671645628",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "src/app/services/game.service.ts",
+          "hash": "9597505536309945533",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/cdk",
+            "npm:rxjs@7.8.1"
+          ]
+        },
+        {
+          "file": "src/app/utils/board.ts",
+          "hash": "2514204339779109124"
+        },
+        {
+          "file": "src/app/utils/moves.ts",
+          "hash": "18183136734996321612"
+        },
+        {
+          "file": "src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "src/assets/icons/pieces/bishop-black.svg",
+          "hash": "2376930390941642907"
+        },
+        {
+          "file": "src/assets/icons/pieces/bishop-white.svg",
+          "hash": "113119447688015991"
+        },
+        {
+          "file": "src/assets/icons/pieces/king-black.svg",
+          "hash": "17181571420265629631"
+        },
+        {
+          "file": "src/assets/icons/pieces/king-white.svg",
+          "hash": "9733976384876299199"
+        },
+        {
+          "file": "src/assets/icons/pieces/knight-black.svg",
+          "hash": "4767160041580278239"
+        },
+        {
+          "file": "src/assets/icons/pieces/knight-white.svg",
+          "hash": "10038080330552174715"
+        },
+        {
+          "file": "src/assets/icons/pieces/pawn-black.svg",
+          "hash": "8215319178098426584"
+        },
+        {
+          "file": "src/assets/icons/pieces/pawn-white.svg",
+          "hash": "10555244640387925280"
+        },
+        {
+          "file": "src/assets/icons/pieces/queen-black.svg",
+          "hash": "1449250841690583412"
+        },
+        {
+          "file": "src/assets/icons/pieces/queen-white.svg",
+          "hash": "130403181535693293"
+        },
+        {
+          "file": "src/assets/icons/pieces/rook-black.svg",
+          "hash": "7864215996834542221"
+        },
+        {
+          "file": "src/assets/icons/pieces/rook-white.svg",
+          "hash": "15321262411842791040"
+        },
+        {
+          "file": "src/assets/styles/_dialog.scss",
+          "hash": "5479578481339889560"
+        },
+        {
+          "file": "src/assets/styles/_variables.scss",
+          "hash": "4910411551182968807"
+        },
+        {
+          "file": "src/assets/styles/main.scss",
+          "hash": "228244777462984752"
+        },
+        {
+          "file": "src/environments/environment.prod.ts",
+          "hash": "10220522844224226756"
+        },
+        {
+          "file": "src/environments/environment.ts",
+          "hash": "1135292433917692033"
+        },
+        {
+          "file": "src/favicon.ico",
+          "hash": "3464744996580215640"
+        },
+        {
+          "file": "src/index.html",
+          "hash": "60219421908534293"
+        },
+        {
+          "file": "src/main.ts",
+          "hash": "10677612470474905821",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser-dynamic"
+          ]
+        },
+        {
+          "file": "src/polyfills.ts",
+          "hash": "2035846685621806592",
+          "deps": [
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "src/styles.scss",
+          "hash": "6128643588651076515"
+        },
+        {
+          "file": "src/test.ts",
+          "hash": "715821617531147605",
+          "deps": [
+            "npm:zone.js",
+            "npm:@angular/core",
+            "npm:@angular/platform-browser-dynamic"
+          ]
+        },
+        {
+          "file": "tsconfig.app.json",
+          "hash": "16616923596177837167"
+        },
+        {
+          "file": "tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "564402030144987495"
+        },
+        {
+          "file": "tsconfig.spec.json",
+          "hash": "16287279946930924495"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}

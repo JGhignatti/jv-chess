@@ -1,0 +1,12 @@
+[NX Daemon Server] - 2025-01-24T05:50:22.776Z - Started listening on: /var/folders/3m/d64d694x1sjcc4mm9t7238f80000gn/T/f3e7e9843c356ee16617/d.sock
+[NX Daemon Server] - 2025-01-24T05:50:22.778Z - [WATCHER]: Subscribed to changes within: /Users/joaoghignatti/Projects/JV/jv-chess (native)
+[NX Daemon Server] - 2025-01-24T05:50:22.779Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-24T05:50:22.780Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-01-24T05:50:22.782Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-01-24T05:50:22.783Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2025-01-24T05:50:22.783Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2025-01-24T05:50:22.783Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-01-24T05:50:22.785Z - [WATCHER]: Stopping the watcher for /Users/joaoghignatti/Projects/JV/jv-chess (sources)
+[NX Daemon Server] - 2025-01-24T05:50:22.785Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-01-24T05:50:22.785Z - [WATCHER]: Stopping the watcher for /Users/joaoghignatti/Projects/JV/jv-chess (outputs)
+[NX Daemon Server] - 2025-01-24T05:50:22.785Z - Server stopped because: "Request to shutdown"
