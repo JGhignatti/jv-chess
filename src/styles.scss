@@ -1,15 +1,1 @@
-@use "main";
-@forward "dialog";
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
-
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  height: 100vh;
-  color: white;
-  font-family: 'Rubik', sans-serif;
-  background-color: main.$bg;
-}
+/* You can add global styles to this file, and also import other style files */

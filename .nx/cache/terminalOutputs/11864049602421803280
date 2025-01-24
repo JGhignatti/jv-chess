@@ -1,0 +1,40 @@
+[33mProject 'jv-chess' contains extension with invalid name (includeScripts).[39m
+[1m[33mComponent HMR has been enabled.[39m[22m
+[1m[33mIf you encounter application reload issues, you can manually reload the page to bypass HMR and/or disable this feature with the `--no-hmr` command line option.[39m[22m
+[1m[33mPlease consider reporting any issues you encounter here: https://github.com/angular/angular-cli/issues[39m[22m
+[1m[33m[39m[22m
+[?25l[2m◼[22m Building...
+[2K[1A[2K[G[33m⠋[39m Building...
+[2K[1A[2K[G[33m⠙[39m Building...
+[2K[1A[2K[G[33m⠹[39m Building...
+[2K[1A[2K[G[33m⠸[39m Building...
+[2K[1A[2K[G[33m⠼[39m Building...
+[2K[1A[2K[G[33m⠴[39m Building...
+[2K[1A[2K[G[32m✔[39m Building...
+[2K[1A[2K[G[?25h[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m        [2m | [22m[1mRaw size[22m[39m
+[37m[32mpolyfills.js[39m[37m       [2m | [22m[2mpolyfills[22m    [2m | [22m[36m90.20 kB[39m[37m[2m | [22m[39m
+[37m[32mmain.js[39m[37m            [2m | [22m[2mmain[22m         [2m | [22m [36m1.87 kB[39m[37m[2m | [22m[39m
+[37m[32mstyles.css[39m[37m         [2m | [22m[2mstyles[22m       [2m | [22m[36m96 bytes[39m[37m[2m | [22m[39m
+[37m[39m
+[37m[1m [22m                  [2m | [22m[1mInitial total[22m[2m | [22m[1m92.17 kB[22m[39m
+[37m[39m
+[37mApplication bundle generation failed. [0.557 seconds][39m
+[37m[39m
+[1m[31m[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mInvalid self-closing element in index HTML file: '<jv-root />'.[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37mWatch mode enabled. Watching for file changes...[39m
+[?25l[2m◼[22m Changes detected. Rebuilding...
+[2K[1A[2K[G[33m⠋[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[32m✔[39m Changes detected. Rebuilding...
+[2K[1A[2K[G[?25h[37m[39m
+[37mNo output file changes.[39m
+[37m[39m
+[37mApplication bundle generation complete. [0.005 seconds][39m
+[37m[39m
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mBuilder must provide an initial full build before incremental results.[39m
+
+Pass --verbose to see the stacktrace.
+
+[?25h

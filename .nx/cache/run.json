@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx serve",
+    "startTime": "2025-01-24T06:07:25.183Z",
+    "endTime": "2025-01-24T06:07:38.284Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "jv-chess:serve:development",
+      "target": "serve",
+      "projectName": "jv-chess",
+      "hash": "11864049602421803280",
+      "startTime": "2025-01-24T06:07:25.188Z",
+      "endTime": "2025-01-24T06:07:38.284Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
