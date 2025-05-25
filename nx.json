@@ -47,7 +47,7 @@
     "@nx/angular:application": {
       "e2eTestRunner": "none",
       "linter": "eslint",
-      "style": "scss",
+      "style": "css",
       "unitTestRunner": "jest"
     }
   },
